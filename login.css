@@ -1,0 +1,14 @@
+.bashka{
+    width: 230px;
+    margin: 8px 3px;
+    font-size: 20px;
+    outline: none;
+    border: 1.2px solid light black;
+    border-radius: 5px;
+    color: #000;;
+    background: transparent;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+    box-shadow: inset 8px 8px 16px #808080 inset -8px -8px 16px #d2d2d2;
+
+}

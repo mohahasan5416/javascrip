@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabel.css">
+    <title>Date Input Table</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Date Entry Form</h1>
+        <form id="dateForm">
+            <label for="dateInput">Enter Date:</label>
+            <input type="date" id="dateInput" required>
+            <button type="submit">Add Date</button>
+        </form>
+
+        <h2>Entered Dates</h2>
+        <table id="dateTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dates will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="tabel.js"></script>
+</body>
+</html>
